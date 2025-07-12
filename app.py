@@ -1069,6 +1069,15 @@ def sixth_section():
     st.subheader("O-RAN Near-RT RIC Countermeasures")
     st.write("There are no O-RAN Near-RT RIC Countermeasures found.")
 
+    st.subheader("O-RAN Near-RT RIC xApp Countermeasures")
+    st.write("There are no O-RAN Near-RT RIC xApp Countermeasures found.")
+
+    with st.form(key='sixth_section'):
+        # Submit button for the form
+        section7_button = st.form_submit_button("Recommend Prompt Design")
+        
+        if section7_button:
+            # Trigger the second section
             st.session_state.show_section_7 = True
 
     if st.session_state.get('show_section_7', False):

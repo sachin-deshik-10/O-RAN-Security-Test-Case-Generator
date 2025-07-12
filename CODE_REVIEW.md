@@ -281,7 +281,10 @@ Test Categories:
 ## 📞 Support & Collaboration
 
 **Author**: N. Sachin Deshik  
-**GitHub**: [sachin-deshik-10](https://github.com/sachin-deshik-10/O-RAN-Security-Test-Case-Generator)  
+**GitHub**: [sachin-deshik-10](https://github.com/sachin-deshik-10)  
+**Repository**: [O-RAN-Security-Test-Case-Generator](https://github.com/sachin-deshik-10/O-RAN-Security-Test-Case-Generator)  
+**Email**: [nsachindeshik.ec21@rvce.edu.in](mailto:nsachindeshik.ec21@rvce.edu.in)  
+**LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/sachin-deshik-nayakula-62b93b362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
 **Project**: O-RAN Security Test Case Generator  
 **Status**: Ready for Production Deployment 🚀
 
