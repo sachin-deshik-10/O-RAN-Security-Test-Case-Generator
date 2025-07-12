@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """
 Setup script for O-RAN Security Test Case Generator with Gemini 2.5 Flash
+Author: N. Sachin Deshik
+GitHub: sachin-deshik-10
+Email: nsachindeshik.ec21@rvce.edu.in
+LinkedIn: https://www.linkedin.com/in/sachin-deshik-nayakula-62b93b362
 """
 import os
 import subprocess

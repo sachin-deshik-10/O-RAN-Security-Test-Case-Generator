@@ -2,6 +2,8 @@
 Advanced ML/DL Models for O-RAN Security Analysis
 Author: N. Sachin Deshik
 GitHub: sachin-deshik-10
+Email: nsachindeshik.ec21@rvce.edu.in
+LinkedIn: https://www.linkedin.com/in/sachin-deshik-nayakula-62b93b362
 """
 
 import numpy as np

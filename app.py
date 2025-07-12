@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+"""
+O-RAN Security Test Case Generator - Main Application
+Author: N. Sachin Deshik
+GitHub: sachin-deshik-10
+Email: nsachindeshik.ec21@rvce.edu.in
+LinkedIn: https://www.linkedin.com/in/sachin-deshik-nayakula-62b93b362
+"""
+
 import streamlit as st
 from streamlit import components
 import logging
@@ -1060,15 +1069,6 @@ def sixth_section():
     st.subheader("O-RAN Near-RT RIC Countermeasures")
     st.write("There are no O-RAN Near-RT RIC Countermeasures found.")
 
-    st.subheader("O-RAN Near-RT RIC xApp Countermeasures")
-    st.write("There are no O-RAN Near-RT RIC xApp Countermeasures found.")
-
-    with st.form(key='sixth_section'):
-        # Submit button for the form
-        section7_button = st.form_submit_button("Recommend Prompt Design")
-        
-        if section7_button:
-            # Trigger the second section
             st.session_state.show_section_7 = True
 
     if st.session_state.get('show_section_7', False):

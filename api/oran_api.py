@@ -2,6 +2,8 @@
 API Module for O-RAN Security Test Case Generator
 Author: N. Sachin Deshik
 GitHub: sachin-deshik-10
+Email: nsachindeshik.ec21@rvce.edu.in
+LinkedIn: https://www.linkedin.com/in/sachin-deshik-nayakula-62b93b362
 """
 
 from fastapi import FastAPI, HTTPException, Depends, Security

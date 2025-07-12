@@ -93,7 +93,7 @@ A comprehensive O-RAN security analysis tool that generates security test cases 
 
 ```bash
 # Clone repository
-git clone https://github.com/sachin-deshik-10/O-RAN-Security-Test-Case-Generator
+git clone https://github.com/sachin-deshik-10/O-RAN-Security-Test-Case-Generator.git
 cd O-RAN-Security-Test-Case-Generator
 
 # Install dependencies
