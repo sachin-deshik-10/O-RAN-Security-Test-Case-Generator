@@ -1,4 +1,24 @@
-# Open RAN Security Test Case Generator
+# O-RAN Security Test Case Generator 🛡️
+
+<div align="center">
+
+![O-RAN Logo](https://img.shields.io/badge/O--RAN-Security-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange?style=for-the-badge&logo=tensorflow)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red?style=for-the-badge&logo=pytorch)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+**Advanced AI-Powered O-RAN Network Security Analysis Platform**
+
+*Comprehensive security test case generation and threat analysis for Open Radio Access Networks*
+
+[🚀 Quick Start](#quick-start) • [📊 Features](#features) • [🛠️ Installation](#installation) • [📖 Documentation](#documentation) • [🤝 Contributing](#contributing)
+
+</div>
+
+## 🎯 Overview
+
+The O-RAN Security Test Case Generator is a cutting-edge AI-powered platform designed to revolutionize security testing and threat analysis for Open Radio Access Networks (O-RAN). This comprehensive tool combines advanced machine learning, deep learning, and artificial intelligence techniques to provide automated security analysis and comprehensive network optimization.pen RAN Security Test Case Generator
 
 A comprehensive O-RAN security analysis tool that generates security test cases using AI and provides quantitative dataset analysis from O-RAN free sources.
 
