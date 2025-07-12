@@ -1,0 +1,111 @@
+{
+  "O-RAN Alliance Specifications": {
+    "metadata": {
+      "source": "O-RAN Alliance",
+      "collected_at": "2025-07-12T19:19:17.545701",
+      "type": "specifications"
+    },
+    "specifications": [
+      {
+        "id": "O-RAN.WG3.E2AP-v03.00",
+        "title": "O-RAN E2 Application Protocol (E2AP)",
+        "version": "3.00",
+        "working_group": "WG3",
+        "description": "E2 Application Protocol specification for Near-RT RIC",
+        "interfaces": [
+          "E2"
+        ],
+        "components": [
+          "Near-RT RIC",
+          "E2 Node"
+        ],
+        "security_requirements": [
+          "Mutual authentication between Near-RT RIC and E2 Node",
+          "Integrity protection of E2AP messages",
+          "Confidentiality protection when required"
+        ],
+        "performance_requirements": {
+          "latency": "< 10ms for E2 interface",
+          "throughput": "> 1000 msg/s",
+          "availability": "99.9%"
+        }
+      },
+      {
+        "id": "O-RAN.WG2.A1AP-v07.00",
+        "title": "O-RAN A1 Application Protocol (A1AP)",
+        "version": "7.00",
+        "working_group": "WG2",
+        "description": "A1 Application Protocol specification for Non-RT RIC",
+        "interfaces": [
+          "A1"
+        ],
+        "components": [
+          "Non-RT RIC",
+          "Near-RT RIC"
+        ],
+        "security_requirements": [
+          "TLS 1.3 for A1 interface",
+          "Certificate-based authentication",
+          "Policy integrity validation"
+        ],
+        "performance_requirements": {
+          "latency": "< 100ms for A1 interface",
+          "policy_update_time": "< 1s",
+          "availability": "99.9%"
+        }
+      },
+      {
+        "id": "O-RAN.WG1.O1-Interface-v07.00",
+        "title": "O-RAN Operations and Maintenance Interface (O1)",
+        "version": "7.00",
+        "working_group": "WG1",
+        "description": "O1 Interface specification for OAM functions",
+        "interfaces": [
+          "O1"
+        ],
+        "components": [
+          "SMO",
+          "O-RAN Functions"
+        ],
+        "security_requirements": [
+          "NETCONF/YANG security",
+          "SSH/TLS transport security",
+          "Role-based access control"
+        ],
+        "performance_requirements": {
+          "latency": "< 1000ms for O1 interface",
+          "management_operations": "> 100 ops/s",
+          "availability": "99.9%"
+        }
+      },
+      {
+        "id": "O-RAN.WG11.Security-v05.00",
+        "title": "O-RAN Security Threat Model and Requirements",
+        "version": "5.00",
+        "working_group": "WG11",
+        "description": "Security threat modeling and requirements for O-RAN",
+        "interfaces": [
+          "All O-RAN interfaces"
+        ],
+        "components": [
+          "All O-RAN components"
+        ],
+        "security_requirements": [
+          "End-to-end security architecture",
+          "Zero-trust security model",
+          "Threat detection and response",
+          "Secure boot and attestation",
+          "Cryptographic protection"
+        ],
+        "threat_categories": [
+          "Unauthorized access",
+          "Data integrity attacks",
+          "Denial of service",
+          "Man-in-the-middle attacks",
+          "Malicious xApps",
+          "Supply chain attacks"
+        ]
+      }
+    ]
+  }
+}

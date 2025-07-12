@@ -1,0 +1,7 @@
+Metric,Value,Unit,Target,Compliance
+E2E Latency,12.5,ms,10.0,0.78
+E2 Interface Latency,6.2,ms,5.0,0.65
+A1 Interface Latency,145.0,ms,100.0,0.82
+Data Throughput,850.0,Mbps,1000.0,0.85
+System Availability,99.95,%,99.9,1.00
+Error Rate,0.005,%,0.01,1.00

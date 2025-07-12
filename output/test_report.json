@@ -1,0 +1,40 @@
+{
+  "test_date": "2025-07-12T19:17:51.957383",
+  "total_tests": 8,
+  "passed_tests": 8,
+  "failed_tests": 0,
+  "results": [
+    {
+      "test": "Import Test",
+      "passed": true
+    },
+    {
+      "test": "Data Files Test",
+      "passed": true
+    },
+    {
+      "test": "Data Analysis Modules Test",
+      "passed": true
+    },
+    {
+      "test": "Gemini Integration Test",
+      "passed": true
+    },
+    {
+      "test": "NLTK Data Test",
+      "passed": true
+    },
+    {
+      "test": "Data Analysis Functionality Test",
+      "passed": true
+    },
+    {
+      "test": "Data Collection Functionality Test",
+      "passed": true
+    },
+    {
+      "test": "Output Directories Test",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-07-11T00:10:51.024900",
+    "total_datasets": 3,
+    "total_security_tests": 12
+  },
+  "dataset_summary": {
+    "near_rt_ric_performance": {
+      "source": "O-RAN Alliance",
+      "version": "1.0.0",
+      "quality_score": 0.8999999999999999,
+      "record_count": 1,
+      "last_updated": "2025-07-11T00:10:50.820019"
+    },
+    "e2_interface_traces": {
+      "source": "O-RAN Alliance",
+      "version": "1.0.0",
+      "quality_score": 0.8999999999999999,
+      "record_count": 1,
+      "last_updated": "2025-07-11T00:10:50.930829"
+    },
+    "xapp_security_metrics": {
+      "source": "O-RAN Alliance",
+      "version": "1.0.0",
+      "quality_score": 1.0,
+      "record_count": 1,
+      "last_updated": "2025-07-11T00:10:50.961075"
+    }
+  },
+  "security_analysis": {
+    "total_tests": 12,
+    "passed": 6,
+    "warnings": 4,
+    "failed": 2,
+    "critical_issues": 1,
+    "high_issues": 1
+  },
+  "performance_analysis": {},
+  "recommendations": [
+    {
+      "category": "security",
+      "priority": "critical",
+      "title": "Address Critical Security Issues",
+      "description": "Found 1 critical security issues that require immediate attention",
+      "actions": [
+        "Review and patch critical vulnerabilities",
+        "Implement additional security controls",
+        "Conduct security audit"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-07-11T10:30:00Z",
+  "summary": {
+    "datasets_processed": 4,
+    "security_score": 82,
+    "performance_compliance": 78,
+    "data_quality": 93,
+    "overall_health": 84
+  },
+  "datasets": {
+    "O-RAN Alliance Performance Data": {
+      "type": "performance_metrics",
+      "records": 10000,
+      "quality_score": 0.95,
+      "source": "wiki.o-ran-sc.org"
+    },
+    "3GPP Security Test Vectors": {
+      "type": "security_tests",
+      "records": 500,
+      "quality_score": 0.92,
+      "source": "3gpp.org"
+    },
+    "NIST Vulnerability Database": {
+      "type": "vulnerabilities",
+      "records": 250,
+      "quality_score": 0.98,
+      "source": "nvd.nist.gov"
+    },
+    "E2 Interface Traces": {
+      "type": "interface_traces",
+      "records": 50000,
+      "quality_score": 0.89,
+      "source": "o-ran-sc.org"
+    }
+  },
+  "security_results": {
+    "vulnerability_assessment": {
+      "status": "PASS",
+      "critical": 0,
+      "high": 2,
+      "medium": 5
+    },
+    "threat_pattern_analysis": {
+      "status": "WARN",
+      "threats_detected": 3,
+      "confidence": 0.85
+    },
+    "baseline_compliance": {
+      "status": "PASS",
+      "compliance_score": 0.94
+    },
+    "interface_security": {
+      "status": "PASS",
+      "failure_rate": 0.002
+    }
+  },
+  "performance_metrics": {
+    "E2E Latency": {
+      "value": 12.5,
+      "target": 10.0,
+      "unit": "ms",
+      "compliance": 0.78
+    },
+    "E2 Interface Latency": {
+      "value": 6.2,
+      "target": 5.0,
+      "unit": "ms",
+      "compliance": 0.65
+    },
+    "A1 Interface Latency": {
+      "value": 145.0,
+      "target": 100.0,
+      "unit": "ms",
+      "compliance": 0.82
+    },
+    "Data Throughput": {
+      "value": 850.0,
+      "target": 1000.0,
+      "unit": "Mbps",
+      "compliance": 0.85
+    },
+    "System Availability": {
+      "value": 99.95,
+      "target": 99.9,
+      "unit": "%",
+      "compliance": 1.0
+    },
+    "Error Rate": {
+      "value": 0.005,
+      "target": 0.01,
+      "unit": "%",
+      "compliance": 1.0
+    }
+  },
+  "insights": [
+    {
+      "category": "Security",
+      "priority": "HIGH",
+      "finding": "2 high-severity vulnerabilities detected in xApp interfaces",
+      "recommendation": "Apply security patches and implement additional input validation"
+    },
+    {
+      "category": "Performance",
+      "priority": "MEDIUM",
+      "finding": "E2 interface latency exceeds target by 24%",
+      "recommendation": "Optimize message processing algorithms and consider hardware acceleration"
+    },
+    {
+      "category": "Reliability",
+      "priority": "LOW",
+      "finding": "System availability meets targets with 99.95% uptime",
+      "recommendation": "Maintain current reliability practices and monitor trends"
+    },
+    {
+      "category": "Compliance",
+      "priority": "MEDIUM",
+      "finding": "Overall O-RAN compliance at 85% - room for improvement",
+      "recommendation": "Focus on interface latency optimization and security hardening"
+    }
+  ]
+}
